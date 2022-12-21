@@ -1385,7 +1385,6 @@ Category Post
 .category-post {
   overflow: hidden;
   margin-top: 0px;
-  margin-bottom: 120px;
 }
 
 .category-post .naccs {
@@ -2083,4 +2082,7 @@ responsive
   .category-post .icon {
     transform: translateX(-22px);
   }
+}
+.testimonials {
+  text-align: center;
 }
