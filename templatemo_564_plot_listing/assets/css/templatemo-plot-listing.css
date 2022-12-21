@@ -1496,13 +1496,18 @@ Category Post
 }
 
 .category-post .nacc .thumb .main-white-button {
-  text-align: right;
-  margin-top: 40px;
+  text-align:center ;
+  width: 12rem;
+    height: 5rem;
+    padding-top: 1.75rem;
 }
 
 .category-post .nacc .thumb .main-white-button a {
   background-color: #8d99af;
   color: #fff;
+  width: 12rem;
+    height: 5rem;
+    padding-top: inherit;
 }
 
 .category-post .nacc .thumb .main-white-button a i {
@@ -1529,7 +1534,7 @@ Category Post
 
 .category-post .top-content .top-icon {
   background-color: #2b2d42;
-  width: 250px;
+  width: inherit;
   height: 132px;
   border-radius: 7px;
   position: relative;
@@ -1540,6 +1545,7 @@ Category Post
 .category-post .top-content .top-icon h4 {
   position: absolute;
   left: 30px;
+  padding: 5rem;
   top: 50%;
   color: #fff;
   transform: translateY(-50%);
