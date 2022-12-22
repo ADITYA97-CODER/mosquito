@@ -1343,12 +1343,65 @@ form#contact button:hover {
 Page Heading
 --------------------------------------------- 
 */
+.stats{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: baseline;
+  justify-content: center;
 
+}
+.stats {
+  margin-top: 4rem;
+  font-size: x-large;
+  color: white;
+  font-weight: bold;
+}
+.stats .risk{
+  margin: 5px 140px;
+  margin-right: 15px;
+}
+.stats .deaths{
+  margin-left: 207px;
+  margin-right: 51px;
+  
+}
+.stats .population{
+  margin: 5px 140px;
+}
+.burden{
+  background-image:url(../images/background.jpg) ;
+  height: 30rem;
+  padding: 5px;
+}
+.burden span{
+  color: #23ce6b;
+  font-weight: bold;
+}
+.burden p{
+  color: white;
+  text-align: center;
+  font-size: medium;
+  font-weight: 600;
+  margin-top: 2rem;
+  padding-left: 14rem;
+  padding-right: 14rem;
+}
+.burden .section-heading{
+  text-align: center;
+  margin: 1rem;
+}
+
+.burden .section-heading h2{
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
 .page-heading {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/background.jpg);
   padding: 230px 0px 120px 0px;
   position: relative;
   overflow: hidden;
