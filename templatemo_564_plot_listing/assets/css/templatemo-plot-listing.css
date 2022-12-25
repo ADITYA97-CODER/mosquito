@@ -1,33 +1,50 @@
-/*
 
-TemplateMo 564 Plot Listing
+.platform{
+  display: flex;
+  flex-direction: column;
+}
+.d{
+  position: relative;
+  right: 1rem;
+  width: 720px;
+  height: 540px;
+  top: 3rem;
+  margin-top: 8rem;
+  margin-left: 2rem;
+}
+.platform h2{
+  align-self: center;
+  font-size: 35px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  color: #2a2a2a;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+  line-height: 44px;
+}
+.platc h4{
+  font-size: 25px;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin-top: 1rem;
 
-https://templatemo.com/tm-564-plot-listing
+}
+.platc p{
+  font-size: 18px;
+  line-height: 26px;
+  /* color: #2a2a2a; */
+  padding: 1rem;
+}
 
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
+.platc{
+  align-self: start;
+  width: 100%;
+  display: flex;
+}
+.c{
+  width: 50%;
+}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* 
 ---------------------------------------------
@@ -57,7 +74,43 @@ figure, header, nav, section, article, aside, footer, figcaption {
 .grid-item {
   width: 50%;
 }
+.working{
+display: flex;
+flex-direction: column;
 
+
+}
+.working h3{
+  color:black;
+    line-height: 70px;
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-top: 15px;
+    align-self: center;
+}
+.con{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: 100%;
+}
+.con span{
+  color: #23ce6b;
+}
+.con img{
+  align-self: flex-end;
+  margin-right: 10rem;
+  margin-top: 3rem;
+}
+.con p{
+  margin-left: 5rem;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2a2a2a;
+  font-weight: 500;
+  padding: 3rem;
+}
 .grid-item {
   float: left;
 }
@@ -192,7 +245,7 @@ body {
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 500;
-  color: #8d99af;
+  color: #23ce6b;
 }
 
 .main-white-button a {
@@ -212,7 +265,7 @@ body {
   margin-right: 10px;
   width: 22px;
   height: 22px;
-  background-color: #8d99af;
+  background-color: #23ce6b;
   color: #fff;
   border-radius: 50%;
   display: inline-block;
@@ -222,7 +275,7 @@ body {
 }
 
 .main-white-button a:hover {
-  background-color: #8d99af;
+  background-color: #23ce6b;
   color: #fff;
 }
 
@@ -578,7 +631,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #8d99af;
+  color: #23ce6b;
 }
 
 @media (max-width: 1200px) {
@@ -611,7 +664,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #8d99af!important;
+    color: #23ce6b!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -672,7 +725,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #8d99af!important;
+    color: #23ce6b!important;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
@@ -778,7 +831,7 @@ Banner Style
   border-radius: 50%;
   text-align: center;
   line-height: 62px;
-  color: #8d99af;
+  color: #23ce6b;
   background-color: #fff;
   transition: all .5s;
 }
@@ -816,8 +869,8 @@ form#search-form input {
 }
 
 form#search-form input.searchText {
-  border-left: 1px solid #8d99af;
-  border-right: 1px solid #8d99af;
+  border-left: 1px solid #23ce6b;
+  border-right: 1px solid #23ce6b;
   padding: 0px 30px;
 }
 
@@ -829,7 +882,7 @@ form#search-form input::placeholder {
 form#search-form button {
   width: 100%;
   height: 100%;
-  background-color: #8d99af;
+  background-color: #23ce6b;
   border: none;
   padding: 15px;
   color: #fff;
@@ -843,7 +896,7 @@ form#search-form button i {
   height: 40px;
   background-color: #fff;
   border-radius: 50%;
-  color: #8d99af;
+  color: #23ce6b;
   display: inline-block;
   text-align: center;
   line-height: 38px;
@@ -880,7 +933,7 @@ Popular Categories
   border-radius: 50%;
   text-align: center;
   line-height: 62px;
-  color: #8d99af;
+  color: #23ce6b;
   background-color: #fff;
   margin-right: 15px;
 }
@@ -1052,7 +1105,7 @@ Recent Listing
 .recent-listing .item .right-content h6 {
   font-size: 15px;
   font-weight: 500;
-  color: #8d99af;
+  color: #23ce6b;
 }
 
 .recent-listing .item .right-content span.price {
@@ -1066,7 +1119,7 @@ Recent Listing
 .recent-listing .item .right-content span.price .icon {
   width: 30px;
   height: 30px;
-  background-color: #8d99af;
+  background-color: #23ce6b;
   border-radius: 50%;
   text-align: center;
   line-height: 28px;
@@ -1084,7 +1137,7 @@ Recent Listing
   display: block;
   margin-bottom: 30px;
   font-size: 15px;
-  color: #8d99af;
+  color: #23ce6b;
 }
 
 .recent-listing .item .right-content span.details em {
@@ -1123,7 +1176,7 @@ Recent Listing
 .recent-listing .owl-dots .owl-dot {
   width: 10px;
   height: 10px;
-  background-color: #8d99af;
+  background-color: #23ce6b;
   border-radius: 50%;
   margin: 0px 5px;
   transition: all .3s;
@@ -1150,7 +1203,7 @@ footer {
 footer h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #8d99af;
+  color: #23ce6b;
   margin-bottom: 30px;
 }
 
@@ -1179,8 +1232,8 @@ footer .helpful-links ul li a {
 }
 
 footer .helpful-links ul li a:hover {
-  color: #8d99af;
-  border-bottom: 1px solid #8d99af;
+  color: #23ce6b;
+  border-bottom: 1px solid #23ce6b;
 }
 
 footer .contact-us p {
@@ -1192,8 +1245,8 @@ footer .contact-us a {
 }
 
 footer .contact-us a:hover {
-  color: #8d99af;
-  border-bottom: 1px solid #8d99af;
+  color: #23ce6b;
+  border-bottom: 1px solid #23ce6b;
 }
 
 footer .sub-footer {
@@ -1238,11 +1291,11 @@ form#contact input {
   height: 46px;
   border-radius: 7px;
   background-color: transparent;
-  border: 1px solid #8d99af;
+  border: 1px solid #23ce6b;
   outline: none;
   font-size: 15px;
   font-weight: 300;
-  color: #8d99af;
+  color: #23ce6b;
   padding: 0px 15px;
   margin-bottom: 30px;
 }
@@ -1262,20 +1315,20 @@ form#contact input[type=checkbox] {
   min-width: 15px;
   height: 15px;
   background-color: transparent;
-  border: 1px solid #8d99af;
+  border: 1px solid #23ce6b;
   outline: none;
   cursor: pointer;
 }
 
 form#contact span {
-  color: #8d99af;
+  color: #23ce6b;
   font-size: 14px;
   font-weight: 500;
   margin-left: 8px;
 }
 
 form#contact input::placeholder {
-  color: #8d99af;
+  color: #23ce6b;
   font-weight: 500;
 }
 
@@ -1289,24 +1342,24 @@ form#contact textarea {
   height: 140px;
   border-radius: 7px;
   background-color: transparent;
-  border: 1px solid #8d99af;
+  border: 1px solid #23ce6b;
   outline: none;
   font-size: 15px;
   font-weight: 300;
-  color: #8d99af;
+  color: #23ce6b;
   padding: 15px;
   margin-bottom: 30px;
 }
 
 form#contact textarea::placeholder {
-  color: #8d99af;
+  color: #23ce6b;
   font-weight: 500;
 }
 
 form#contact button {
   margin-bottom: -15px;
   display: inline-block;
-  background-color: #8d99af;
+  background-color: #23ce6b;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1343,6 +1396,43 @@ form#contact button:hover {
 Page Heading
 --------------------------------------------- 
 */
+.inputfile h2{
+ color: white;
+ font-weight: 700;
+ margin-bottom: -2rem;
+}
+.inputfile i{
+  padding: 2rem 4rem;
+}
+.inputfile button{
+  background-color: #080808;
+  border: none;
+  width: 12rem;
+  height: 5rem;
+  color: white;
+  font-size: xx-large;
+  font-weight: 700;
+  border-radius: 5rem;;
+}
+.inputfile{
+  background-image:url(/assets/images/background.jpg);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  border-radius: 20px;
+}
+input{
+  display: none;
+}
+label{
+  cursor:pointer;
+}
+#imageName{
+  color:green;
+}
 .stats{
   display: flex;
   flex-direction: row;
@@ -1373,6 +1463,7 @@ Page Heading
   background-image:url(../images/background.jpg) ;
   height: 30rem;
   padding: 5px;
+  margin: 2rem;
 }
 .burden span{
   color: #23ce6b;
@@ -1452,7 +1543,7 @@ Category Post
   border-radius: 50%;
   text-align: center;
   line-height: 62px;
-  color: #8d99af;
+  color: #23ce6b;
   background-color: #fff;
   margin-right: 15px;
   float: left;
@@ -1488,7 +1579,7 @@ Category Post
   margin: 0px;
   width: 20%;
   font-size: 10px;
-  background-color: #8d99af;
+  background:#23ce6b;
   height: 132px;
   line-height: 132px;
   display: inline-block;
@@ -1507,7 +1598,7 @@ Category Post
 
 .category-post .naccs .menu div.active,
 .category-post .naccs .menu div.active .thumb {
-  background-color: #2b2d42;
+  background-color: #12753b;
 }
 
 .category-post ul.nacc {
@@ -1555,7 +1646,7 @@ Category Post
 }
 
 .category-post .nacc .thumb .main-white-button a {
-  background-color: #8d99af;
+  background-color: #23ce6b;
   color: #fff;
   width: 12rem;
     height: 5rem;
@@ -1564,7 +1655,7 @@ Category Post
 
 .category-post .nacc .thumb .main-white-button a i {
   background-color: #fff;
-  color: #8d99af;
+  color: #23ce6b;
 }
 
 .category-post .top-content {
@@ -1585,7 +1676,7 @@ Category Post
 }
 
 .category-post .top-content .top-icon {
-  background-color: #2b2d42;
+  background-color: #12753b;
   width: inherit;
   height: 132px;
   border-radius: 7px;
@@ -1614,7 +1705,7 @@ Category Post
   border-radius: 50%;
   text-align: center;
   line-height: 62px;
-  color: #8d99af;
+  color: #23ce6b;
   background-color: #fff;
   margin-right: 15px;
   float: left;
@@ -1628,7 +1719,7 @@ Category Post
 
 .category-post .nacc .thumb span.list-item {
   font-size: 15px;
-  color: #8d99af;
+  color: #23ce6b;
   font-weight: 500;
   line-height: 30px;
 }
@@ -1663,7 +1754,7 @@ Listing Page
   border-radius: 50%;
   text-align: center;
   line-height: 62px;
-  color: #8d99af;
+  color: #23ce6b;
   background-color: #fff;
   margin-right: 15px;
 }
@@ -1685,7 +1776,7 @@ Listing Page
   color: #fff;
   font-size: 15px;
   border-radius: 7px;
-  background-color: #8d99af;
+  background-color: #23ce6b;
   margin-bottom: 30px;
   height: 126px;
   text-align: left;
@@ -1698,7 +1789,7 @@ Listing Page
 
 .listing-page .naccs .menu div.active,
 .listing-page .naccs .menu div.active .thumb {
-  background-color: #2b2d42;
+  background-color: #12753b;
 }
 
 .listing-page ul.nacc {
@@ -1795,7 +1886,7 @@ Listing Page
 .listing-page .item .right-content h6 {
   font-size: 15px;
   font-weight: 500;
-  color: #8d99af;
+  color: #23ce6b;
 }
 
 .listing-page .item .right-content span.price {
@@ -1809,7 +1900,7 @@ Listing Page
 .listing-page .item .right-content span.price .icon {
   width: 30px;
   height: 30px;
-  background-color: #8d99af;
+  background-color: #23ce6b;
   border-radius: 50%;
   text-align: center;
   line-height: 28px;
@@ -1827,7 +1918,7 @@ Listing Page
   display: block;
   margin-bottom: 30px;
   font-size: 15px;
-  color: #8d99af;
+  color: #23ce6b;
 }
 
 .listing-page .item .right-content span.details em {
@@ -1853,7 +1944,7 @@ Listing Page
 .listing-page .owl-dots .owl-dot {
   width: 10px;
   height: 10px;
-  background-color: #8d99af;
+  background-color: #23ce6b;
   border-radius: 50%;
   margin: 0px 5px;
   transition: all .3s;
@@ -1939,7 +2030,7 @@ Pre Loader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #8d99af;
+    background: #23ce6b;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -1962,7 +2053,7 @@ Pre Loader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #8d99af;
+    background: #23ce6b;
     border-radius: 50%;
 }
 
@@ -2030,7 +2121,7 @@ responsive
 @media (max-width: 992px) {
   form#search-form select,
   form#search-form input {
-    border: 1px solid #8d99af;
+    border: 1px solid #23ce6b;
     border-radius: 7px;
     margin-bottom: 15px;
   }
